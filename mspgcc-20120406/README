@@ -1,0 +1,76 @@
+This directory contains files that add/enhance support for the Texas
+Instruments MSP430 family of microcontrollers in open-source toolchains.
+The material incorporated is maintained in a git repository hosted at:
+
+ git://mspgcc.git.sourceforge.net/mspgcc/mspgcc
+
+NOTE ON RELEASES
+================
+
+This is a long-term-support (LTS) release of mspgcc.
+
+Quoting from
+http://www.mail-archive.com/mspgcc-users@lists.sourceforge.net/msg10028.html:
+
+  Certain releases of mspgcc will be marked as "Long Term Support".  These
+  releases include well-tested sets of patches against specific versions of
+  upstream packages like gcc and binutils.  The maintenance promise for LTS
+  releases is that reproducible "significant" bugs for which a
+  non-disruptive fixes can be identified will be fixed and patches supplied
+  which can be applied on top of the patches provided in the corresponding
+  mspgcc release.
+
+  Other releases should be considered development snapshots.  They may be
+  based on development (unversioned) snapshots of upstream tools.  No
+  official patches will be released for these, and support for them ends on
+  the release of the next version of mspgcc.
+
+  Downstream packagers should publish only LTS releases, and should
+  periodically check for new patches to be integrated into their packages
+  (though I'll try to announce them periodically).  Patches are archived on
+  the patches branch of the mspgcc repository, and are published for
+  individual download at in Files/Patches on SourceForge.  Such patches will
+  also be committed to the release branches on the gcc/binutils/gdb git
+  repositories.
+
+
+BUILD OVERVIEW
+==============
+
+Build and install a complete toolchain by building each of the following
+tools in order:
+
+  binutils
+  gcc
+  gdb
+  msp430mcu
+  msp430-libc
+
+The source for the first three is obtained by applying patches in this
+directory to the upstream distributions of the generic tools.  The patches
+include information on how to build the distribution.
+
+msp430mcu provides C headers and binutils linker scripts for each of the
+over 300 microcontrollers in the MSP430 family.  It is released as an
+independent package and can be obtained at:
+
+  http://sourceforge.net/projects/mspgcc/files/msp430mcu/msp430mcu-YYYYMMDD.tar.bz2
+
+where YYYYMMDD is provided in the file msp430mcu.version in this release.  A
+.zip file is available as well.
+
+msp430-libc provides C library routines.  It is released as an independent
+package and can be obtained at:
+
+  https://sourceforge.net/projects/mspgcc/files/msp430-libc/msp430-libc-YYYYMMDD.tar.bz2
+
+where YYYYMMDD is provided in the file msp430-libc.version in this release.  A
+.zip file is available as well.
+
+** Please report all problems with this toolchain on the mspgcc bug tracker
+   at:
+
+  http://sourceforge.net/tracker/?group_id=42303&atid=432701
+
+**WARNING** The documentation portions of this package are in progress, and
+  may be out of date in significant ways.  

@@ -1,0 +1,653 @@
+Summary of changes in mspgcc release 20120406 since release 20120330
+
+binutils: changes from binutils-2.21.1a-20120330 to binutils-2.21.1a-20120406:
+ - 5c6c3c5 [2012-04-06 08:28:15 -0500] Update DEV-PHASE for release
+ - fb6b35b [2012-03-29 04:00:07 -0500] SF 3512502 address mode fails to accept CG-compatible immediates
+
+gcc: changes from gcc-4.6.2-20120330 to gcc-4.6.3-20120406:
+ - 32f42c9 [2012-04-06 11:08:42 -0500] Update DEV-PHASE for release
+ - e33bad7 [2012-04-06 08:36:12 -0500] Update for release
+ - dffc052 [2012-03-02 16:16:08 -0600] Check in from gcc-4.6.3 distribution tar file
+ - 3183976 [2012-03-01 11:56:05 +0000] Mark as release
+ - afbf968 [2012-03-01 11:56:00 +0000] Mark ChangeLog
+ - 07510a8 [2012-03-01 11:55:56 +0000] Mark ChangeLog
+ - 32924a0 [2012-03-01 11:55:51 +0000] Mark ChangeLog
+ - f1b7565 [2012-03-01 11:55:46 +0000] Mark ChangeLog
+ - 72ef239 [2012-03-01 11:55:40 +0000] Mark ChangeLog
+ - 64dd006 [2012-03-01 11:55:35 +0000] Mark ChangeLog
+ - 64ab41c [2012-03-01 11:55:29 +0000] Mark ChangeLog
+ - 815fff3 [2012-03-01 11:55:24 +0000] Mark ChangeLog
+ - b3ae158 [2012-03-01 11:55:18 +0000] Mark ChangeLog
+ - 6515fda [2012-03-01 11:55:12 +0000] Mark ChangeLog
+ - 14bf9aa [2012-03-01 11:55:07 +0000] Mark ChangeLog
+ - 7b084b6 [2012-03-01 11:55:03 +0000] Mark ChangeLog
+ - d422e3b [2012-03-01 11:54:58 +0000] Mark ChangeLog
+ - 21f4821 [2012-03-01 11:54:54 +0000] Mark ChangeLog
+ - 4c173fa [2012-03-01 11:54:49 +0000] Mark ChangeLog
+ - 7d35fad [2012-03-01 11:54:44 +0000] Mark ChangeLog
+ - 2e2cc86 [2012-03-01 11:54:40 +0000] Mark ChangeLog
+ - dd6c0b7 [2012-03-01 11:54:35 +0000] Mark ChangeLog
+ - fac828f [2012-03-01 11:54:30 +0000] Mark ChangeLog
+ - 6507bbb [2012-03-01 11:54:25 +0000] Mark ChangeLog
+ - 66e7397 [2012-03-01 11:54:20 +0000] Mark ChangeLog
+ - 011121d [2012-03-01 11:54:16 +0000] Mark ChangeLog
+ - 99cd77a [2012-03-01 11:54:11 +0000] Mark ChangeLog
+ - 14afd366 [2012-03-01 11:54:07 +0000] Mark ChangeLog
+ - 0afc3b9 [2012-03-01 11:54:03 +0000] Mark ChangeLog
+ - 06200f7 [2012-03-01 11:53:58 +0000] Mark ChangeLog
+ - 2ae9dec [2012-03-01 11:53:53 +0000] Mark ChangeLog
+ - 4098d87 [2012-03-01 11:53:49 +0000] Mark ChangeLog
+ - 9555088 [2012-03-01 11:53:44 +0000] Mark ChangeLog
+ - c353d22 [2012-03-01 11:53:40 +0000] Mark ChangeLog
+ - eb1ef35 [2012-03-01 11:53:35 +0000] Mark ChangeLog
+ - d43d2e4 [2012-03-01 11:53:31 +0000] Mark ChangeLog
+ - b1b3d5e [2012-03-01 11:53:26 +0000] Mark ChangeLog
+ - b346bf4 [2012-03-01 11:53:21 +0000] Mark ChangeLog
+ - 4121b3e [2012-03-01 11:53:15 +0000] Mark ChangeLog
+ - ad3b32f [2012-03-01 11:53:10 +0000] Mark ChangeLog
+ - ccc2fbd [2012-03-01 11:53:05 +0000] Mark ChangeLog
+ - 2f57f3b [2012-03-01 11:53:01 +0000] Mark ChangeLog
+ - 4a85662 [2012-03-01 11:52:57 +0000] Mark ChangeLog
+ - 228be39 [2012-03-01 11:52:52 +0000] Mark ChangeLog
+ - 17ce0da [2012-03-01 11:52:47 +0000] Mark ChangeLog
+ - 334cefd [2012-03-01 11:52:42 +0000] Mark ChangeLog
+ - eb5de3c [2012-03-01 11:52:38 +0000] Mark ChangeLog
+ - d9ea780 [2012-03-01 11:52:33 +0000] Mark ChangeLog
+ - 7afc717 [2012-03-01 00:17:53 +0000] Daily bump.
+ - b61293a [2012-02-29 21:24:05 +0000] 2012-02-29  Paul Thomas  <pault@gcc.gnu.org>
+ - 13ac5fa [2012-02-29 00:17:36 +0000] Daily bump.
+ - 8b1c1a4 [2012-02-28 00:19:09 +0000] Daily bump.
+ - 93ba0dd [2012-02-27 11:19:03 +0000] 	Revert: 	2012-02-02  Uros Bizjak  <ubizjak@gmail.com>
+ - 0c17d9a [2012-02-27 00:19:56 +0000] Daily bump.
+ - 8c64e88 [2012-02-26 00:18:27 +0000] Daily bump.
+ - 0fef982 [2012-02-25 00:17:44 +0000] Daily bump.
+ - 55b1894 [2012-02-24 00:18:12 +0000] Daily bump.
+ - cd57aa9 [2012-02-23 22:53:54 +0000] 2012-02-23  Tobias Burnus  <burnus@net-b.de>
+ - 0664088 [2012-02-23 18:20:19 +0000] 	Backported from trunk 	2012-02-20  Georg-Johann Lay  <avr@gjlay.de>
+ - 965706c [2012-02-23 17:38:13 +0000] 	PR c/52290 	* c-decl.c (start_function): Exit early if decl1 is not FUNTION_DECL.
+ - 3cfb55a [2012-02-23 00:19:01 +0000] Daily bump.
+ - a140ffb [2012-02-22 19:17:42 +0000] 	PR target/52330 	* config/i386/i386.c (ix86_print_operand) <case 'H'>: Error out if x 	is not offsettable memory reference.
+ - e5d8ccc [2012-02-22 17:38:22 +0000] 	* lib/target-supports.exp (check_effective_target_vect_condition): 	Return true for NEON.
+ - a38e3a4 [2012-02-22 00:18:31 +0000] Daily bump.
+ - 5b8b09b [2012-02-21 23:46:05 +0000] 	PR target/52294 	* thumb2.md (thumb2_shiftsi3_short): Split register and 	immediate shifts.  For register shifts tie operands 0 and 1. 	(peephole2 for above): Check that register-controlled shifts 	have suitably tied operands.
+ - 1e1a33f [2012-02-21 21:30:44 +0000] 2012-02-21  Paolo Carlini  <paolo.carlini@oracle.com>
+ - 7302ea1 [2012-02-21 14:13:57 +0000]         * gcc.dg/bf-ms-layout-3.c: Mark char typed bitfield         as extension.
+ - d4ca3dd [2012-02-21 11:20:57 +0000] 2012-02-21  Andreas Krebbel  <Andreas.Krebbel@de.ibm.com>
+ - 363727a [2012-02-21 10:56:34 +0000] 2012-02-21  Paolo Carlini  <paolo.carlini@oracle.com>
+ - 5eb4509 [2012-02-21 00:18:21 +0000] Daily bump.
+ - cf47f0d [2012-02-20 22:16:25 +0000] Remove svn-attributes ...
+ - 81fa51b [2012-02-20 22:09:48 +0000] 	PR target/52238 	* stor-layout.c (place_field): Handle desired_align for 	ms-bitfields, too.
+ - 9549a31 [2012-02-20 21:28:36 +0000]         PR libstdc++/52300         * gthr.h (GTHREAD_USE_WEAK): Define as zero for mingw.
+ - 9a0b36b [2012-02-20 11:31:01 +0000] 2012-02-20  Paolo Carlini  <paolo.carlini@oracle.com>
+ - 39a028e [2012-02-20 00:18:28 +0000] Daily bump.
+ - 9ed1d00 [2012-02-19 00:18:20 +0000] Daily bump.
+ - a144c34 [2012-02-18 00:18:05 +0000] Daily bump.
+ - 2194ab2 [2012-02-17 14:56:14 +0000] 	PR testsuite/52296 	* g++.dg/debug/dwarf2/pr52260.C: Remove.
+ - 2c0816e [2012-02-17 00:18:21 +0000] Daily bump.
+ - eb8535b [2012-02-16 08:50:02 +0000] 	PR debug/52260 	* dwarf2out.c (copy_decls_walk): Fill in *slot before traversing 	children with clone_tree_hash, not after it.
+ - 4c1ada4 [2012-02-16 00:21:26 +0000] Daily bump.
+ - 5740349 [2012-02-15 21:17:42 +0000] [gcc] 2012-02-15  Michael Meissner  <meissner@linux.vnet.ibm.com>
+ - 476a356 [2012-02-15 11:05:26 +0000] 2012-02-15  Richard Guenther  <rguenther@suse.de>
+ - 814ff01 [2012-02-15 08:13:22 +0000] 	PR target/51921 	PR target/52205 	* config/sparc/sol2-unwind.h (sparc64_is_sighandler): Add support for 	Solaris 11 and slightly reformat. 	(sparc_is_sighandler): Likewise.
+ - d243615 [2012-02-15 00:18:29 +0000] Daily bump.
+ - 66b64e8 [2012-02-14 23:36:19 +0000] 	Backported from mainline 	2012-02-14  Jakub Jelinek  <jakub@redhat.com>
+ - c646871 [2012-02-14 23:35:15 +0000] 	Backported from mainline 	2012-02-14  Jakub Jelinek  <jakub@redhat.com>
+ - 44e3bac [2012-02-14 23:34:34 +0000] 	Backported from mainline 	2012-02-14  Jakub Jelinek  <jakub@redhat.com>
+ - 3824eb6 [2012-02-14 23:33:23 +0000] 	Backported from mainline 	2012-02-13  Jakub Jelinek  <jakub@redhat.com>
+ - 91659b0 [2012-02-14 23:32:39 +0000] 	Backported from mainline 	2012-02-13  Jakub Jelinek  <jakub@redhat.com>
+ - 35e5dc9 [2012-02-14 23:31:42 +0000] 	PR bootstrap/51969 	Backported from mainline 	2011-11-08  Michael Matz  <matz@suse.de>
+ - cbd7739 [2012-02-14 07:11:06 +0000]     Missing gcc/ChangeLog.
+ - fbff7e0 [2012-02-14 06:57:17 +0000] 	Backport from mainline. 	2011-06-08  Julian Brown  <julian@codesourcery.com>
+ - e152c06 [2012-02-14 00:17:59 +0000] Daily bump.
+ - 6803ec4 [2012-02-13 00:18:31 +0000] Daily bump.
+ - 5d515d7 [2012-02-12 00:17:47 +0000] Daily bump.
+ - 94da61b [2012-02-11 08:12:42 +0000] 	* compare-elim.c (find_comparisons_in_bb): Eliminate only compares 	having the same mode as previous compare.
+ - 4729457 [2012-02-11 00:18:36 +0000] Daily bump.
+ - 1fe5c34 [2012-02-10 16:45:53 +0000]         * configure.ac (AM_LTLDFLAGS): Add -no-undefine for x64         windows target.         * configure: Regenerated
+ - 571b858 [2012-02-10 16:32:36 +0000]         PR boehm-gc/48514         * include/gc_config_macros.h (GC_DLL): Define it for mingw-targets         only, if we are actual in boehm-gc's build and DLL_EXPORT         is defined.
+ - 324b3bd [2012-02-10 12:34:17 +0000] Backport the fix for PR tree-optimization/49536 from mainline. Patch by Jack Howarth, approved by Richard Guenther.
+ - cca8459 [2012-02-10 00:17:49 +0000] Daily bump.
+ - a51b074 [2012-02-09 17:52:18 +0000] disable scan-assembler tests in g++.dg/abi/mangle60.C
+ - 2552115 [2012-02-09 17:30:39 +0000] 	Backported from mainline 	2012-02-08  Jakub Jelinek  <jakub@redhat.com>
+ - e3e861d [2012-02-09 17:29:38 +0000] 	Backported from mainline 	2012-02-07  Jakub Jelinek  <jakub@redhat.com>
+ - a68c22b [2012-02-09 17:28:22 +0000] 	Backported from mainline 	2012-02-07  Jakub Jelinek  <jakub@redhat.com>
+ - faa003c [2012-02-09 17:27:25 +0000] 	Backported from mainline 	2012-02-06  Jakub Jelinek  <jakub@redhat.com>
+ - cb54ed2 [2012-02-09 17:26:29 +0000] 	Backported from mainline 	2012-02-02  Jakub Jelinek  <jakub@redhat.com>
+ - 603da46 [2012-02-09 17:25:47 +0000] 	Backported from mainline 	2012-01-28  Jakub Jelinek  <jakub@redhat.com>
+ - f12754c [2012-02-09 17:24:47 +0000] 	Backported from mainline 	2012-01-19  Jakub Jelinek  <jakub@redhat.com>
+ - 7ec3f92 [2012-02-09 17:23:13 +0000] 	Backported from mainline 	2012-01-05  Jakub Jelinek  <jakub@redhat.com>
+ - 166d322 [2012-02-09 17:21:15 +0000] 	Backported from mainline 	2012-01-05  Jakub Jelinek  <jakub@redhat.com>
+ - d2f6907 [2012-02-09 17:20:09 +0000] 	Backported from mainline 	2012-01-05  Jakub Jelinek  <jakub@redhat.com>
+ - 07c7f31 [2012-02-09 17:18:42 +0000] 	Backported from mainline 	2012-01-04  Jakub Jelinek  <jakub@redhat.com>
+ - be8b75a [2012-02-09 17:17:36 +0000] 	Backported from mainline 	2012-01-03  Jakub Jelinek  <jakub@redhat.com>
+ - 8201b3d [2012-02-09 17:16:19 +0000] 	Backported from mainline 	2012-01-26  Jakub Jelinek  <jakub@redhat.com>
+ - da4df19 [2012-02-09 17:15:29 +0000] 	Backported from mainline 	2011-12-15  Jakub Jelinek  <jakub@redhat.com>
+ - 6970356 [2012-02-09 17:13:50 +0000] 	Backported from mainline 	2011-12-15  Jakub Jelinek  <jakub@redhat.com>
+ - 9e51755 [2012-02-09 14:55:57 +0000] 	Backport from mainline 	2012-02-09  Peter Bergner  <bergner@vnet.ibm.com>
+ - d9c32ce [2012-02-09 10:10:36 +0000] 2012-02-09  Andrey Belevantsev  <abel@ispras.ru>
+ - 0cb58da [2012-02-09 00:17:58 +0000] Daily bump.
+ - 9528aab [2012-02-08 21:29:45 +0000] 2012-02-08  Tobias Burnus  <burnus@net-b.de>
+ - 9c1c140 [2012-02-08 00:18:21 +0000] Daily bump.
+ - 828064b [2012-02-07 17:24:27 +0000] 	PR middle-end/51994 	* expr.c (get_inner_reference): If there is an offset, add a negative 	bit position to it (if any).
+ - a28989f [2012-02-07 10:49:14 +0000] 2012-02-07  Kai Tietz  <ktietz@redhat.com>             Dave Korn  <dave.korn.cygwin@gmail.com>
+ - a060807 [2012-02-07 00:18:20 +0000] Daily bump.
+ - e029639 [2012-02-06 23:41:45 +0000] 	PR target/52107 	* config/rs6000/rs6000.c (rs6000_emit_move): Don't create DImode 	subregs of TFmode.
+ - 7af4523 [2012-02-06 00:17:35 +0000] Daily bump.
+ - d0be5f4 [2012-02-05 00:18:08 +0000] Daily bump.
+ - 60997b5 [2012-02-04 00:18:11 +0000] Daily bump.
+ - 434e4b3 [2012-02-03 20:37:36 +0000] 2012-02-03  Tobias Burnus  <burnus@net-b.de>
+ - f1d573c [2012-02-03 18:33:58 +0000] 2012-02-03  Paul Thomas  <pault@gcc.gnu.org>
+ - d96511d [2012-02-03 10:35:06 +0000]         PR libjava/48512         * configure.ac (THREADSTARTFILESPEC): Don't add crtmet.o file for         w64 windows targets.         * configure: Regenerated.
+ - 09a77c2 [2012-02-03 07:29:31 +0000] 	Backport from mainline: 	2011-11-18  Uros Bizjak  <ubizjak@gmail.com>
+ - 9893d31 [2012-02-03 00:17:56 +0000] Daily bump.
+ - 87cdd4c [2012-02-02 00:17:57 +0000] Daily bump.
+ - 51a1830 [2012-02-01 12:49:34 +0000] 	Fix file naming convention from r183797.
+ - ff478cc [2012-02-01 12:40:23 +0000] gcc/ 	Backport from mainline r183796 	PR rtl-optimization/51374 	* combine.c (can_combine_p): Don't allow volatile_refs_p insns 	to cross other volatile_refs_p insns.
+ - b7e8f12 [2012-02-01 11:10:30 +0000] 2012-02-01  Paolo Carlini  <paolo.carlini@oracle.com>
+ - 459163c [2012-02-01 00:18:34 +0000] Daily bump.
+ - c3bb798 [2012-01-31 16:00:10 +0000] 	Backport from mainline. 	2011-01-31  Matthew Gretton-Dann  <matthew.gretton-dann@arm.com> 	config/arm/thumb2.md (thumb2_mov_notscc): Use MVN for true 	condition.
+ - 3a39379 [2012-01-31 15:09:01 +0000] 2012-01-31  Andreas Krebbel  <Andreas.Krebbel@de.ibm.com>
+ - d96489a [2012-01-31 00:18:32 +0000] Daily bump.
+ - 796d974 [2012-01-30 17:22:04 +0000] 2012-01-30  Bin Cheng  <bin.cheng@arm.com>
+ - 8910492 [2012-01-30 14:35:05 +0000] Fix PR target/50313
+ - b6bf469 [2012-01-30 00:18:06 +0000] Daily bump.
+ - 43739ed [2012-01-29 00:18:01 +0000] Daily bump.
+ - 3a3f06f [2012-01-28 10:00:13 +0000] 2012-01-28  Tobias Burnus  <burnus@net-b.de>
+ - 89d60b1 [2012-01-28 00:18:28 +0000] Daily bump.
+ - 7824193 [2012-01-27 00:18:24 +0000] Daily bump.
+ - f8a487c [2012-01-26 00:18:28 +0000] Daily bump.
+ - e4514d4 [2012-01-25 16:33:50 +0000] 	PR target/51934 	* g++.dg/torture/pr51344.C: Limit to x86.
+ - d174adb [2012-01-25 15:37:33 +0000] 2012-01-25  Richard Guenther  <rguenther@suse.de>
+ - 28ca25e [2012-01-25 08:11:56 +0000] 2012-01-25  Tobias Burnus  <burnus@net-b.de>
+ - 3af4021 [2012-01-25 00:18:42 +0000] Daily bump.
+ - a349c02 [2012-01-24 10:23:14 +0000] 2012-01-24  Richard Guenther  <rguenther@suse.de>
+ - 4052be1 [2012-01-24 08:35:10 +0000] 2012-01-24  Tobias Burnus  <burnus@net-b.de>
+ - 988b3be [2012-01-24 00:18:01 +0000] Daily bump.
+ - 5c30a5c [2012-01-23 11:12:01 +0000] * lang.c (java_init_options_struct): Set frontend_set_flag_trapping_math.
+ - d5efaf0 [2012-01-23 00:18:06 +0000] Daily bump.
+ - ef798e0 [2012-01-22 00:18:32 +0000] Daily bump.
+ - ef7b005 [2012-01-21 16:11:47 +0000] 2012-01-21  Tobias Burnus  <burnus@net-b.de>
+ - 91731fb [2012-01-21 15:01:48 +0000] 	PR ada/46192 	* gcc-interface/decl.c (gnat_to_gnu_entity) <object>: In the case of a 	renaming, preserve the volatileness through the indirection, if any.
+ - 2ce26fd [2012-01-21 00:18:01 +0000] Daily bump.
+ - 53309b3 [2012-01-20 21:36:14 +0000] 	* cfgrtl.c (rtl_dump_bb): Do not dump insns for {ENTRY|EXIT}_BLOCK.
+ - 0dd8e40 [2012-01-20 10:35:04 +0000] 	* g++.dg/torture/pr51344.C: Fix typo.
+ - df6233f [2012-01-20 00:18:36 +0000] Daily bump.
+ - a242d0b [2012-01-19 22:37:50 +0000] Removed svn-properties ...
+ - 7137f08 [2012-01-19 22:34:29 +0000]         Backport from trunk         PR c++/51344         * decl2.c (save_template_attributes): Use merge_attributes         instead of chaining up via TREE_CHAIN.
+ - e8c5c6f [2012-01-19 22:21:43 +0000] 2012-01-19  Tobias Burnus  <burnus@net-b.de>
+ - 995e181 [2012-01-19 20:15:29 +0000] 2012-01-19  Quentin Neill  <quentin.neill@amd.com>
+ - 27eb333 [2012-01-19 00:18:45 +0000] Daily bump.
+ - e901c71 [2012-01-18 19:28:19 +0000] gcc:
+ - d9e3ede [2012-01-18 19:14:48 +0000]         * config/rs6000/rs6000.md (call_value_indirect_aix32): Fix typo         in mode of operand[4].
+ - 5d22a14 [2012-01-18 00:18:24 +0000] Daily bump.
+ - 871233f [2012-01-17 07:31:18 +0000] 	* gcc.dg/pr51821.c (dg-options): Add -std=c99.
+ - 02890f7 [2012-01-17 00:18:28 +0000] Daily bump.
+ - 9ff7847 [2012-01-16 21:49:58 +0000] 	PR c++/51854 	* mangle.c (write_template_arg_literal): Sorry instead of aborting.
+ - ab2b964 [2012-01-16 21:34:26 +0000] 	PR c++/51868 	* typeck.c (build_static_cast_1): Handle bit-fields properly.
+ - 909deeb [2012-01-16 00:18:56 +0000] Daily bump.
+ - 9a83e8c [2012-01-15 19:35:15 +0000] 	PR rtl-optimization/51821 	* recog.c (peep2_find_free_register): Determine clobbered registers 	from insn pattern.
+ - 20b0957 [2012-01-15 00:18:26 +0000] Daily bump.
+ - 1be9ebe [2012-01-14 13:28:05 +0000] 2012-01-14  Tobias Burnus  <burnus@net-b.de>
+ - 0591e0f [2012-01-14 00:18:26 +0000] Daily bump.
+ - 72e0873 [2012-01-13 00:18:33 +0000] Daily bump.
+ - b020d2c [2012-01-12 17:23:32 +0000] 	Backport from mainline r183129 	PR target/51756 	* config/avr/avr.c (avr_encode_section_info): Test for absence of 	DECL_EXTERNAL when checking for initializers of progmem variables.
+ - 2d93c9c [2012-01-12 14:45:00 +0000] 	Backport from mainline 	2012-01-11  Matthew Gretton-Dann  <matthew.gretton-dann@arm.com>
+ - 3697ea8 [2012-01-12 10:33:42 +0000] 	* config/i386/i386.md (*zero_extendsidi2_rex64): Correct movl template. 	(x86_shift<mode>_adj_1): Remove operand constraint from operand 3.
+ - fb93a77 [2012-01-12 00:17:43 +0000] Daily bump.
+ - aca9850 [2012-01-11 00:18:13 +0000] Daily bump.
+ - 6d43daa [2012-01-10 16:55:40 +0000] 	Revert:
+ - c072415 [2012-01-10 00:18:24 +0000] Daily bump.
+ - 03b0112 [2012-01-09 22:09:53 +0000] gcc/ 	* config/mips/mips.md (loadgp_newabi_<mode>): Add missing 	earlyclobber.
+ - 41835dc [2012-01-09 20:03:08 +0000] 2012-01-09  Martin Jambor  <mjambor@suse.cz>
+ - 8dca4c6 [2012-01-09 19:31:14 +0000] 	* gcc-interface/trans.c (addressable_p) <COMPONENT_REF>: Fix thinko.
+ - 8847fe2 [2012-01-09 18:21:52 +0000] 	* config/sparc/sol2-unwind.h (sparc64_is_sighandler): Check that the 	purported sigacthandler address isn't null before dereferencing it. 	(sparc_is_sighandler): Likewise.
+ - deb1506 [2012-01-09 16:55:16 +0000] 2012-01-09  Ramana Radhakrishnan  <ramana.radhakrishnan@linaro.org>
+ - a94694a [2012-01-09 11:44:22 +0000] 2012-01-09  Andrew Stubbs  <ams@codesourcery.com>
+ - 00b261a [2012-01-09 09:50:42 +0000] 	PR ada/41929 	* config/sparc/sol2-unwind.h (sparc64_is_sighandler): Remove SAVPC and 	add CFA.  Revert back to old code for Solaris 8+ multi-threaded. 	(sparc_is_sighandler): Likewise. 	(MD_FALLBACK_FRAME_STATE_FOR): Adjust call to IS_SIGHANDLER.
+ - 7eedf68 [2012-01-09 00:18:32 +0000] Daily bump.
+ - 9a7bd07 [2012-01-08 00:19:04 +0000] Daily bump.
+ - b895164 [2012-01-07 00:18:43 +0000] Daily bump.
+ - 0d5bc00 [2012-01-06 18:03:30 +0000] 	Backport from mainline 	2012-01-06  Arnaud Charlet  <charlet@adacore.com>
+ - e7a8d4e [2012-01-06 14:56:46 +0000] gcc/ 	PR middle-end/48660 	* expr.h (copy_blkmode_to_reg): Declare. 	* expr.c (copy_blkmode_to_reg): New function. 	(expand_assignment): Don't expand register RESULT_DECLs before 	the lhs.  Use copy_blkmode_to_reg to copy BLKmode values into a 	RESULT_DECL register. 	(expand_expr_real_1): Handle BLKmode decls when looking for promotion.
+ - c4c2da8 [2012-01-06 10:50:38 +0000] 	* ada/acats/overflow.lst: Add cb20004.
+ - d09b590 [2012-01-06 00:18:40 +0000] Daily bump.
+ - 5f44dc1 [2012-01-05 22:24:45 +0000] 	PR tree-optimization/51315 	* tree-sra.c (tree_non_aligned_mem_for_access_p): New predicate. 	(build_accesses_from_assign): Use it instead of tree_non_aligned_mem_p.
+ - 05b8ea6 [2012-01-05 00:18:13 +0000] Daily bump.
+ - 7e2a69c [2012-01-04 21:37:11 +0000] 	PR tree-optimization/51624 	* tree-sra.c (build_ref_for_model): When replicating a chain of 	COMPONENT_REFs, stop as soon as the offset would become negative.
+ - ab07b25 [2012-01-04 09:50:13 +0000] 2012-01-04  Richard Guenther  <rguenther@suse.de>
+ - 2bca3d5 [2012-01-04 00:18:27 +0000] Daily bump.
+ - 33a4cc6 [2012-01-03 21:37:41 +0000] 2012-01-03  Chase Douglas  <chase.douglas@canonical.com> 	    Jonathan Wakely  <jwakely.gcc@gmail.com>
+ - 6251a8c [2012-01-03 16:43:38 +0000] 2012-01-03  Sandra Loosemore  <sandra@codesourcery.com>
+ - eb5b6d0 [2012-01-03 14:46:03 +0000] 2012-01-03  Richard Guenther  <rguenther@suse.de>
+ - f29767d [2012-01-03 13:15:21 +0000] 2012-01-03  Richard Guenther  <rguenther@suse.de>
+ - 1d10055 [2012-01-03 12:11:41 +0000] 2012-01-03  Richard Guenther  <rguenther@suse.de>
+ - 1806a1c [2012-01-03 00:18:02 +0000] Daily bump.
+ - 8b04a45 [2012-01-02 17:08:45 +0000] PR debug/49951 - jumpy stepping at end of scope in C++
+ - 9da2aa9 [2012-01-02 11:02:10 +0000] 2012-01-02  Richard Guenther  <rguenther@suse.de>
+ - 0545df4 [2012-01-02 10:32:36 +0000] 	* gnatvsn.ads (Current_Year): Bump to 2011.
+ - ba42888 [2012-01-02 00:18:04 +0000] Daily bump.
+ - 07b1762 [2012-01-01 16:12:39 +0000] 2012-01-01  Thomas König  <tkoenig@gcc.gnu.org>
+ - a8157e2 [2012-01-01 00:17:58 +0000] Daily bump.
+ - 746afcb [2011-12-31 00:29:44 +0000] Fix thinko in setting target options
+ - 1d33327 [2011-12-31 00:18:02 +0000] Daily bump.
+ - ce2b75c [2011-12-30 11:40:48 +0000] 2011-12-30  Paolo Carlini  <paolo.carlini@oracle.com>
+ - 2dea841 [2011-12-30 00:18:10 +0000] Daily bump.
+ - b2e7bb4 [2011-12-29 00:18:19 +0000] Daily bump.
+ - ca7557b [2011-12-28 20:53:30 +0000] Backport PR 51623 change
+ - 3478dcf [2011-12-28 09:30:16 +0000] 	* gcc.dg/torture/pr50396.c: Use dg-add-options ieee.
+ - 214b7f9 [2011-12-28 00:18:33 +0000] Daily bump.
+ - 1ea2c8e [2011-12-27 00:18:13 +0000] Daily bump.
+ - 4ff0fb7 [2011-12-26 00:18:23 +0000] Daily bump.
+ - 61b0285 [2011-12-25 00:18:05 +0000] Daily bump.
+ - 783a0ac [2011-12-24 00:18:28 +0000] Daily bump.
+ - 92332e4 [2011-12-23 09:16:08 +0000] 2011-12-23  Richard Guenther  <rguenther@suse.de>
+ - 8a342a5 [2011-12-23 00:18:14 +0000] Daily bump.
+ - c8db9b1 [2011-12-22 19:36:46 +0000] 2011-12-22  Doug Kwan  <dougkwan@google.com>
+ - 6ff7043 [2011-12-22 19:23:26 +0000] 2011-12-22  Toon Moene  <toon@moene.org>
+ - 06cb850 [2011-12-22 17:32:58 +0000] 	PR target/51643 	* arm.c (arm_function_ok_for_sibcall): Use DECL_WEAK in previous 	change.
+ - de8cb4a [2011-12-22 14:28:39 +0000] 	PR target/51643 	* arm.c (arm_function_ok_for_sibcall): Don't try to tailcall a 	weak function on bare-metal EABI targets.
+ - dd9c419 [2011-12-22 00:18:33 +0000] Daily bump.
+ - c89165f [2011-12-21 18:35:40 +0000] 	PR libstdc++/51626 	* include/bits/stl_uninitialized.h (_Construct_default_a_impl): Define 	overloaded functions to conditionally use allocator::construct. 	(_Construct_default_a): Define to dispatch to appropriate 	_Construct_default_a_impl overload. 	(__uninitialized_default_a, __uninitialized_default_n_a): Use 	_Construct_default_a. 	* testsuite/20_util/allocator/51626.cc: New.
+ - f2ae25e [2011-12-21 12:26:04 +0000] 	Backport from mainline 	2011-12-21  Richard Guenther  <rguenther@suse.de>
+ - 5f6e76b [2011-12-21 12:22:48 +0000] 	* config/alpha/linux-unwind.h: Update copyright years. 	(MD_FROB_UPDATE_CONTEXT): New define. 	(alpha_frob_update_context): New function.
+ - b71183b [2011-12-21 00:18:40 +0000] Daily bump.
+ - 1793f6e [2011-12-20 00:18:24 +0000] Daily bump.
+ - 77538f9 [2011-12-19 22:24:24 +0000] 	* testsuite/ext/type_traits/remove_unsigned_integer_neg.cc: Adjust 	dg-error line numbers. 	* testsuite/ext/type_traits/add_unsigned_floating_neg.cc: Likewise. 	* testsuite/ext/type_traits/remove_unsigned_floating_neg.cc: Likewise. 	* testsuite/ext/type_traits/add_unsigned_integer_neg.cc: Likewise.
+ - 352bc35 [2011-12-19 16:47:28 +0000] 2011-12-19  Martin Jambor  <mjambor@suse.cz>
+ - 9046d56 [2011-12-19 01:57:20 +0000] 	* include/c_global/cmath: Update copyright years. 	* include/ext/type_traits.h: Likewise.
+ - f9ab0fd [2011-12-19 01:49:08 +0000] 	Backport from mainline 	2011-11-13  Paolo Carlini  <paolo.carlini@oracle.com>
+ - 1cd66bd [2011-12-19 00:34:29 +0000] 	PR libstdc++/50862 	* include/std/condition_variable (condition_variable_any::wait): Fix 	deadlock and ensure _Lock::lock() is called on exit. 	* testsuite/30_threads/condition_variable_any/50862.cc: New.
+ - a66fab8 [2011-12-19 00:18:06 +0000] Daily bump.
+ - 709aeee [2011-12-18 22:33:15 +0000] 	PR libstdc++/51540 	* include/bits/stl_numeric.h (partial_sum): Adjust doxygen comments.
+ - f273e4f [2011-12-18 10:03:44 +0000] 	* configure: Regenerate. config/ 	* acx.m4 (Test for GNAT): Update comment and add quotes in final test.
+ - a6f890e [2011-12-18 00:18:09 +0000] Daily bump.
+ - 9b1dedb [2011-12-17 13:52:10 +0000] fix rv-cast[34].C
+ - 972c290 [2011-12-17 13:52:02 +0000] 	PR c++/51416 	* init.c (build_value_init_noctor): Check for incomplete type.
+ - 6073d18 [2011-12-17 00:18:37 +0000] Daily bump.
+ - c0dc4ab [2011-12-16 23:38:34 +0000] 	* config/sparc/sparc.md (UNSPEC_FRAME_BLOCKAGE): New constant. 	(frame_blockage): New expander. 	(frame_blockage<P:mode>): New instruction. 	* config/sparc/sparc.c (sparc_expand_prologue): When the sequence of 	instructions establishing the frame isn't atomic, emit frame blockage.
+ - 211a921 [2011-12-16 22:59:27 +0000] 	PR c++/51331 	* class.c (convert_to_base_statically): Just call 	build_simple_base_path. 	(build_simple_base_path): Check field offset.
+ - 7e5ddb4 [2011-12-16 00:18:30 +0000] Daily bump.
+ - b9d5e17 [2011-12-15 23:50:32 +0000] Detect infinite recursion condition
+ - 7826eb9 [2011-12-15 22:20:41 +0000] Check __GLIBC__ when using __SIGRTMIN
+ - 649e24b [2011-12-15 17:55:59 +0000] 2011-12-15  Andreas Tobler  <andreast@fgznet.ch>
+ - 2a6f7bd [2011-12-15 15:25:32 +0000] 2011-12-15  Tobias Burnus  <burnus@net-b.de>
+ - 82291e4 [2011-12-15 00:18:10 +0000] Daily bump.
+ - 87b953f [2011-12-14 22:33:39 +0000] 	PR c++/51248 	* decl.c (copy_type_enum): Also update variants. 	(finish_enum): Allow variants of complete enums.
+ - a6b71bb [2011-12-14 16:03:07 +0000] 	PR c++/51406 	PR c++/51161 	* typeck.c (build_static_cast_1): Fix cast of lvalue to 	base rvalue reference.
+ - 48653c7 [2011-12-14 00:18:41 +0000] Daily bump.
+ - 3be326c [2011-12-13 22:03:05 +0000] 	* lto-streamer-out.c (write_symbol): Use proper 64-bit host type. 	* lto-cgraph.c (input_cgraph_opt_section): Use 'int' for offsets. 	* lto-streamer-in.c (lto_read_body): Likewise. 	(lto_input_toplevel_asms): Likewise. 	* lto-section-in.c (lto_create_simple_input_block): Likewise. 	* lto-opts.c (lto_read_file_options): Likewise. 	* ipa-prop.c (ipa_prop_read_section): Likewise.
+ - ed02e05 [2011-12-13 20:19:34 +0000] 2011-12-13  Andreas Krebbel  <Andreas.Krebbel@de.ibm.com>
+ - 3378bf3 [2011-12-13 00:18:18 +0000] Daily bump.
+ - 7996111 [2011-12-12 19:44:22 +0000] 	PR testsuite/51511 	* gcc.dg/pr45819.c: Add -w to dg-options.
+ - f61edfc [2011-12-12 19:43:49 +0000] 	PR middle-end/51510 	* calls.c (internal_arg_pointer_based_exp_scan): Don't use 	VEC_safe_grow_cleared if idx is smaller than VEC_length.
+ - de87ce9 [2011-12-12 19:43:06 +0000] 	Backported from mainline 	2011-12-11  Jakub Jelinek  <jakub@redhat.com>
+ - be01b4d [2011-12-12 18:24:31 +0000] 	PR tree-optimization/50569 	* tree-sra.c (build_ref_for_model): Replicate a chain of COMPONENT_REFs 	in the expression of MODEL instead of just the last one.
+ - 22c1545 [2011-12-12 00:17:41 +0000] Daily bump.
+ - 7120371 [2011-12-11 21:37:55 +0000] 2011-12-11  Tobias Burnus  <burnus@net-b.de>
+ - ea641d8 [2011-12-11 20:03:43 +0000] 2011-12-11  Thomas Koenig  <tkoenig@gcc.gnu.org>
+ - 1e8d6c8 [2011-12-11 00:18:19 +0000] Daily bump.
+ - a854795 [2011-12-10 00:18:13 +0000] Daily bump.
+ - 95b0362 [2011-12-09 19:11:01 +0000] Backport 51469
+ - 9e46c5d [2011-12-09 11:32:35 +0000] 	Backport from mainline 	2011-12-08  Jakub Jelinek  <jakub@redhat.com>
+ - 16d076b [2011-12-09 01:27:01 +0000] gcc/ 	Backport from mainline:
+ - 118c460 [2011-12-09 00:18:03 +0000] Daily bump.
+ - df59264 [2011-12-08 20:58:23 +0000] 2011-12-08  Toon Moene  <toon@moene.org>
+ - 88c29c2 [2011-12-08 20:54:57 +0000] 2011-12-08  Tobias Burnus  <burnus@net-b.de>
+ - da0c1a9 [2011-12-08 17:01:49 +0000]         * gcc.target/i386/movdi-rex64.c: Remove unnecessary         unused label.
+ - 56b416c [2011-12-08 16:45:58 +0000]         * gcc.target/i386/movdi-rex64.c: Remove unnecessary         -Wwrite-strings option.
+ - 669ae32 [2011-12-08 15:44:14 +0000]         Backport from mainline:
+ - aac68a6 [2011-12-08 13:39:34 +0000] 	Backport from mainline 	2011-12-05  Jakub Jelinek  <jakub@redhat.com>
+ - de610e4 [2011-12-08 13:37:44 +0000] 	Backport from mainline 	2011-12-05  Jakub Jelinek  <jakub@redhat.com>
+ - f6fcee9 [2011-12-08 13:36:40 +0000] 	Backport from mainline 	2011-12-05  Jakub Jelinek  <jakub@redhat.com> 		    Eric Botcazou  <ebotcazou@adacore.com>
+ - e0fd605 [2011-12-08 13:33:58 +0000] 	Backport from mainline 	2011-11-30  Jakub Jelinek  <jakub@redhat.com>
+ - f558b1f [2011-12-08 09:13:04 +0000] Fix date
+ - 0334e35 [2011-12-08 09:12:12 +0000] 	PR tree-optimization/51315 	* tree-sra.c (tree_non_mode_aligned_mem_p): Rename to... 	(tree_non_aligned_mem_p): ...this.  Add ALIGN parameter.  Look into 	MEM_REFs and use get_object_or_type_alignment for them. 	(build_accesses_from_assign): Adjust for above change. 	(access_precludes_ipa_sra_p): Likewise. ada/ 	Backport from mainline 	2011-09-25  Eric Botcazou  <ebotcazou@adacore.com>
+ - 21bfaf5 [2011-12-08 00:18:31 +0000] Daily bump.
+ - 7212870 [2011-12-07 00:17:58 +0000] Daily bump.
+ - 70dd22f [2011-12-06 19:26:44 +0000] 2011-12-06  Tobias Burnus  <burnus@net-b.de>
+ - d8e7be5 [2011-12-06 17:16:19 +0000] 2011-12-06  Martin Jambor  <mjambor@suse.cz>
+ - 3b17512 [2011-12-06 12:25:51 +0000] gcc:
+ - 7b7d596 [2011-12-06 03:47:37 +0000] 	PR target/50906 	* config/rs6000/rs6000.c (rs6000_emit_prologue <TARGET_SPE_ABI>): 	Do not mark r11 setup as frame-related.  Pass correct offset to 	rs6000_emit_savres_rtx.  Correct out-of-line rs6000_frame_related 	arguments.  Correct sp_offset.  Remove "offset" fudge from 	in-line rs6000_frame_related call.  Rename misleading variable. 	Fix comments and whitespace.  Tidy some expressions. 	(rs6000_emit_epilogue <TARGET_SPE_ABI>): Always set frame_reg_rtx 	to r11 in out-of-line case.  Correct sp_offset.  Pass correct 	offset to rs6000_emit_savres_rtx.  Rename misleading variable. 	Fix comments and whitespace.  Tidy some expressions. 	(rs6000_emit_epilogue <non-TARGET_SPE_ABI>): Add sp_offset 	adjustment when !saving_GPRs_inline.  Correct register mode 	used in address calcs. 	(rs6000_emit_epilogue <non-TARGET_SPE_ABI>): Similarly when 	!restoring_GPRs_inline.
+ - acebb20 [2011-12-06 00:18:14 +0000] Daily bump.
+ - baf4950 [2011-12-05 00:18:30 +0000] Daily bump.
+ - 9c19276 [2011-12-04 13:23:48 +0000] 	PR target/51393 	* config/i386/avxintrin.h (_mm256_insert_epi64): Declare second 	parameter as long long.
+ - 408aa28 [2011-12-04 00:17:50 +0000] Daily bump.
+ - c9ffe62 [2011-12-03 12:57:38 +0000] 2011-12-03  Tobias Burnus  <burnus@net-b.de>
+ - 771ff67 [2011-12-03 00:18:07 +0000] Daily bump.
+ - e83bc5a [2011-12-02 19:14:15 +0000] 	PR target/51002 	PR target/51345 	* config/avr/libgcc.S (__prologue_saves__, __epilogue_restores__): 	Enclose parts using __SP_H__ in !defined (__AVR_HAVE_8BIT_SP__). 	Add FIXME comments. 	* config/avr/avr.md (movhi_sp_r_irq_off, movhi_sp_r_irq_on): Set 	insn condition to !AVR_HAVE_8BIT_SP. 	* config/avr/avr.c (output_movhi): "clr%B0" instead of "in 	%B0,__SP_H__" if AVR_HAVE_8BIT_SP. 	(avr_file_start): Only print "__SP_H__ = 0x3e" if !AVR_HAVE_8BIT_SP. 	* config/avr/avr-devices.c (avr_mcu_types): ATtiny4313 and 	AT86RF401 have a 16-bit SP (their manual is bogus).
+ - 57a4316 [2011-12-02 00:18:07 +0000] Daily bump.
+ - 2dee57d [2011-12-01 00:18:32 +0000] Daily bump.
+ - f08d1d5 [2011-11-30 00:18:45 +0000] Daily bump.
+ - 6285ba0 [2011-11-29 20:13:15 +0000] 2011-11-29  Andreas Tobler  <andreast@fgznet.ch>
+ - 48dd7dd [2011-11-29 00:18:26 +0000] Daily bump.
+ - 8372802 [2011-11-28 00:18:50 +0000] Daily bump.
+ - 10f6d8e [2011-11-27 00:18:08 +0000] Daily bump.
+ - 38b72d0 [2011-11-26 00:17:49 +0000] Daily bump.
+ - 901b76e [2011-11-25 17:18:05 +0000] 2011-11-25  Tobias Burnus  <burnus@net-b.de>
+ - 6d542e6 [2011-11-25 10:41:17 +0000] gcc/ 	Backport from mainline:
+ - ea9ab15 [2011-11-25 10:29:42 +0000] 2011-11-24  Enkovich Ilya  <ilya.enkovich@intel.com>
+ - 7a0e929 [2011-11-25 00:18:30 +0000] Daily bump.
+ - a150bdf [2011-11-24 20:44:28 +0000] 2011-11-24  Tobias Burnus  <burnus@net-b.de>
+ - ebff413 [2011-11-24 07:21:39 +0000] 	PR bootstrap/50888 	* prims.cc: Don't include ctype.h. 	(c_isspace): Define. 	(next_property_key, next_property_value): Use it instead 	of isspace.
+ - 1c3b7d5 [2011-11-24 00:17:58 +0000] Daily bump.
+ - 4bdd319 [2011-11-23 22:15:54 +0000] 	* config.host (*-*-freebsd[12], *-*-freebsd[12].*, 	*-*-freebsd*aout*): Remove.
+ - 63b6cd9 [2011-11-23 21:24:48 +0000] 	* update_web_docs_svn: Make $DOCSDIR group writable after 	creating it.
+ - 270eab8 [2011-11-23 00:17:26 +0000] Daily bump.
+ - bfa1ef1 [2011-11-22 21:37:24 +0000] /cp 2011-11-22  Paolo Carlini  <paolo.carlini@oracle.com>
+ - 29a4e21 [2011-11-22 00:18:22 +0000] Daily bump.
+ - bbd4bd6 [2011-11-21 09:04:08 +0000] gcc/ada:
+ - 9352794 [2011-11-21 00:18:13 +0000] Daily bump.
+ - ec9517b [2011-11-20 21:24:07 +0000] 2011-11-20  Andreas Tobler  <andreast@fgznet.ch>
+ - bae98c3 [2011-11-20 00:18:02 +0000] Daily bump.
+ - 724abf7 [2011-11-19 20:39:10 +0000] 	PR rtl-optimization/51187 	* reorg.c (relax_delay_slots): Do not consider a jump useless if there 	is a barrier between the jump and its target label.
+ - d1d4c18 [2011-11-19 16:47:02 +0000] PR target/50493 * arm.c (neon_disambiguate_copy): Correctly handle partial overlap of src and dest operands.
+ - 821d060 [2011-11-19 00:18:16 +0000] Daily bump.
+ - 17e7670 [2011-11-18 22:28:06 +0000] 	* gcc.dg/cpp/assert4.c: Test __linux__, not __gnu_linux__.
+ - 04dc587 [2011-11-18 15:51:41 +0000] /cp 2011-11-18  Paolo Carlini  <paolo.carlini@oracle.com>
+ - a560959 [2011-11-18 11:46:58 +0000] gcc/ada:
+ - 3f375ba [2011-11-18 11:45:44 +0000] toplevel:
+ - bc710c9 [2011-11-18 00:18:07 +0000] Daily bump.
+ - 250c4b0 [2011-11-17 00:18:09 +0000] Daily bump.
+ - 23e55a5 [2011-11-16 23:11:26 +0000] 2011-11-16  Paolo Carlini  <paolo.carlini@oracle.com>
+ - a00c8fc [2011-11-16 17:53:28 +0000] 2011-11-16  Richard Earnshaw  <rearnsha@arm.com> 	    Bernd Schmidt <bernds@coudesourcery.com> 	    Sebastian Huber <sebastian.huber@embedded-brains.de>
+ - adf62e1 [2011-11-16 00:18:08 +0000] Daily bump.
+ - 485bb69 [2011-11-15 10:49:20 +0000] 2011-11-15  Jason Dick  <dickphd@gmail.com>
+ - ec4d459 [2011-11-15 00:18:13 +0000] Daily bump.
+ - 9eb5a94 [2011-11-14 00:18:15 +0000] Daily bump.
+ - 17cac2b [2011-11-13 14:25:58 +0000] ada:
+ - 74db4c5 [2011-11-13 13:58:43 +0000] gcc:
+ - e5a4cef [2011-11-13 00:18:10 +0000] Daily bump.
+ - 07aebf9 [2011-11-12 14:14:43 +0000] gcc:
+ - ae40cf7 [2011-11-12 14:04:58 +0000] gcc/objc:
+ - 2158308 [2011-11-12 13:57:55 +0000] gcc/objc:
+ - 92dd955 [2011-11-12 00:17:39 +0000] Daily bump.
+ - f73fb67 [2011-11-11 00:18:16 +0000] Daily bump.
+ - 406028a [2011-11-10 19:04:01 +0000] 	PR middle-end/51077 	* tree-object-size.c (addr_object_size): Check TREE_CODE of 	MEM_REF's operand rather than code of the MEM_REF itself.
+ - d82de93 [2011-11-10 00:18:31 +0000] Daily bump.
+ - 99de191 [2011-11-09 00:18:01 +0000] Daily bump.
+ - 593b2259 [2011-11-08 00:46:06 +0000] 	PR c++/50870 	* pt.c (tsubst_copy): Handle NAMESPACE_DECL. 	(tsubst_copy_and_build) [COMPONENT_REF]: Handle a still-dependent 	object.
+ - 143db7e2 [2011-11-08 00:18:22 +0000] Daily bump.
+ - c7a3f07 [2011-11-07 01:15:08 +0000] 	PR target/30282 	* config/rs6000/rs6000.c (rs6000_emit_stack_reset): Always emit 	blockage for ABI_V4.
+ - 078936e [2011-11-07 00:17:57 +0000] Daily bump.
+ - bb173ee [2011-11-06 00:18:02 +0000] Daily bump.
+ - 9cc21bf [2011-11-05 00:18:14 +0000] Daily bump.
+ - 77874af [2011-11-04 21:49:49 +0000] 2011-11-04  Eric Botcazou  <ebotcazou@adacore.com>
+ - 068a2d1 [2011-11-04 17:38:29 +0000] 	PR target/50979 	* config/sparc/sparc.h (ASM_CPU_SPEC): Pass -Av8 if -mcpu=v8.
+ - 64634d6 [2011-11-04 00:18:00 +0000] Daily bump.
+ - 4d4ab55 [2011-11-03 20:05:09 +0000] 	* config/i386/i386.md (lround<X87MODEF:mode><SWI248x:mode>2, 	rint<mode>2, floor<mode>2, lfloor<MODEF:mode><SWI48:mode>2, 	btrunc<mode>2, lwp_lwpval<mode>3): Use operands[N] instead of operandN.
+ - 6b36dc4 [2011-11-03 00:17:45 +0000] Daily bump.
+ - 9c8aa6b [2011-11-02 21:54:24 +0000] 2011-11-02  Richard B. Kreckel  <kreckel@ginac.de> 	    Paolo Carlini  <paolo.carlini@oracle.com>
+ - a00dc97 [2011-11-02 20:07:26 +0000] 	PR target/50945 	* config/sparc/sparc.md (movsf_insn): Reindent constraints. 	(movsf_insn_no_fpu): Likewise. 	(movdf_insn_sp32): Likewise. 	(movdf_insn_sp32_no_fpu): Likewise. 	(movdf_insn_sp32_v9): Likewise.  Remove redundant GY constraint. 	(movdf_insn_sp32_v9_no_fpu): Likewise. 	(movdf_insn_sp64): Likewise. 	(movdf_insn_sp64_no_fpu): Likewise. 	(movtf_insn_sp32): Likewise. 	(movtf_insn_sp32_no_fpu): Likewise. 	(movtf_insn_sp64): Likewise. 	(movtf_insn_sp64_hq): Likewise. 	(movtf_insn_sp64_no_fpu): Likewise.
+ - 625a3a6 [2011-11-02 10:47:44 +0000] 	gcc/ 	* cfgcleanup.c (try_head_merge_bb): If get_condition returns 	NULL for a jump that is a cc0 insn, pick the previous insn for 	move_before.
+ - c5655b1 [2011-11-02 00:18:04 +0000] Daily bump.
+ - 5f63725 [2011-11-01 22:59:36 +0000] 	* config/i386/i386.md (splitters for int-float conversion): Use 	SUBREG_REG on SUBREGs in splitter constraints.
+ - 74924ed [2011-11-01 18:38:42 +0000] 	PR rtl-optimization/47918
+ - 5b6926c [2011-11-01 00:17:50 +0000] Daily bump.
+ - d98a1cb [2011-10-31 00:17:46 +0000] Daily bump.
+ - 68c281f [2011-10-30 16:29:11 +0000] 	* ja.po: Update.
+ - 24ce5fb [2011-10-30 00:24:51 +0000] /cp 2011-10-29  Paolo Carlini  <paolo.carlini@oracle.com>
+ - 7d00a4e [2011-10-30 00:17:27 +0000] Daily bump.
+ - 5a60592 [2011-10-29 21:40:55 +0000] 	Revert last change.
+ - 86fe9a3 [2011-10-29 20:23:00 +0000] 	PR target/50617 	* config/pa/pa-protos.h (output_bb): Rename to pa_output_bb. 	* config/pa/pa.md: Likewise. 	* config/pa/pa.c: Likewise.
+ - 686ee38 [2011-10-29 20:19:38 +0000] 	PR target/50691 	* config/pa/pa.c (emit_move_sequence): Legitimize TLS symbol references. 	* config/pa/pa.h (LEGITIMATE_CONSTANT_P): Return false for 	TLS_MODEL_GLOBAL_DYNAMIC and TLS_MODEL_LOCAL_DYNAMIC symbol references.
+ - 39842e6 [2011-10-29 00:18:31 +0000] Daily bump.
+ - d7e22dd [2011-10-28 00:18:13 +0000] Daily bump.
+ - c96cbfe [2011-10-27 21:55:22 +0000] 	PR target/50875 	* config/i386/sse.md (*avx_unpcklpd256): Remove extra insn 	constraints.  Change alternative 1 to "x,m,1".
+ - 30e2bc3 [2011-10-27 00:18:15 +0000] Daily bump.
+ - b083fb0 [2011-10-26 17:06:05 +0000] 	* BASE-VER: Set to 4.6.3. 	* DEV-PHASE: Set to prerelease.
+
+gdb: no changes
+
+msp430-libc: no changes
+
+msp430mcu: changes from msp430mcu-20120330 to msp430mcu-20120406:
+ - 10cf8a1 [2012-04-06 08:19:43 -0500] Regenerate
+ - 15bf2f6 [2012-04-06 08:19:20 -0500] Update version number and release notes
+ - 21aeaf4 [2012-04-05 18:17:09 -0500] SF 3514609 mcu suffix loses mcu characteristics
+
+
+=====================================
+
+Summary of changes in mspgcc release 20120330 since release 20120311
+
+binutils: changes from binutils-2.21.1a-20120224 to binutils-2.21.1a-20120330:
+ - b8f22db [2012-03-30 18:53:47 -0500] Update DEV-PHASE for release
+
+gcc: changes from gcc-4.6.2-20120311 to gcc-4.6.2-20120330:
+ - 80e4799 [2012-03-30 19:26:05 -0500] Update DEV-PHASE for release
+ - 79a5b04 [2012-03-21 16:00:08 -0500] Add msp430 target support to GCC
+ - 2cc7120 [2012-03-30 19:22:48 -0500] Revert "Add msp430 target support to GCC"
+ - 6511e76 [2012-03-30 18:49:30 -0500] Update for release
+ - 58b91df [2012-03-30 10:22:34 -0500] SF 3513285 add CPU/MPY defines to internal cpp set
+ - 2eac54bc [2012-03-30 10:08:03 -0500] Provide __interrupt support independently from iomacros.h
+ - 0fa909f [2012-03-23 08:30:38 -0500] Update for release
+ - 5a3c262 [2012-03-22 15:22:49 -0500] msp430.md: fix operand 1 pattern for strlen
+ - fac40d9 [2012-03-22 14:45:35 -0500] Eliminate various compiler warnings
+ - 75e6526 [2012-03-22 10:00:54 -0500] Update for release
+ - 6ee7148 [2012-03-22 04:01:56 -0500] SF 3113886 Peripheral RAM block mapping
+ - ba7338c [2012-03-21 15:58:43 -0500] SF 3474171 support TI standard interrupt declaration
+
+gdb: no changes
+
+msp430-libc: no changes
+
+msp430mcu: changes from msp430mcu-20120311 to msp430mcu-20120330:
+ - c349058 [2012-03-30 18:55:23 -0500] Update version number and release notes
+ - b3b4ce4 [2012-03-30 09:24:50 -0500] Regenerate from new headers
+ - 7323439 [2012-03-30 09:23:03 -0500] Remove workaround for device column misorder; update version
+ - deacb7a [2012-03-30 09:19:04 -0500] New upstream headers from TI
+ - ee3c0c2 [2012-03-22 01:53:49 -0500] Regenerate
+ - 36f03e8 [2012-03-22 01:50:40 -0500] SF 3113886 Peripheral RAM block mapping
+ - 6fc2786 [2012-03-22 01:46:08 -0500] Extract new fields from devices.csv
+ - fa89f09 [2012-03-21 17:08:23 -0500] New upstream headers from TI (2012-03-19)
+ - 8a0d950 [2012-03-21 16:46:53 -0500] SF 3474171 support TI standard interrupt declaration
+
+
+=====================================
+
+Summary of changes in mspgcc release 20120311 since release 20120224
+
+binutils: no changes
+
+gcc: changes from gcc-4.6.1-20120224 to gcc-4.6.2-20120311:
+ - 57c0b69 [2012-03-11 13:12:37 -0500] Update DEV-PHASE for release
+ - d3f7972 [2012-03-11 13:09:56 -0500] Update for release
+ - 8e6ca75 [2012-03-10 15:00:01 -0600] SF 3499699 Incorrect generated code returning from main
+ - b2ed137 [2012-03-07 13:33:04 -0600] SF 3420924 gdb can't find local variables in unoptimized main
+ - b96f163 [2012-03-07 11:14:52 -0600] SF 3498729 diagnose frame pointer corruption in task
+ - 11f355e [2012-03-04 16:36:31 -0600] msp430-builtins: eliminate signed/unsigned comparison warning
+ - 8f6a458 [2012-03-04 16:26:17 -0600] SF 3496195 possibly incorrect using of conditional branch
+ - adf92c7 [2012-03-04 14:07:16 -0600] Refine cc0 implementation
+ - dc83a76 [2011-12-05 08:29:01 -0600] Check in from gcc-4.6.2 distribution tar file
+
+gdb: no changes
+
+msp430-libc: no changes
+
+msp430mcu: changes from msp430mcu-20120224 to msp430mcu-20120311:
+ - dde6b36 [2012-03-11 13:18:54 -0500] Regenerate
+ - 9e19661 [2012-03-11 13:18:44 -0500] Update version number and release notes
+ - 2a88cc9 [2012-03-10 19:58:58 -0600] Regenerate
+ - 0d957ee [2012-03-05 09:09:45 -0600] SF 3494318 bad -mmcu is not diagnosed
+
+
+=====================================
+
+Summary of changes in mspgcc release 20120224 since release 20120125
+
+gcc: changes from 20120125 to 20120224:
+ - ac421b7 [2012-02-24 14:28:04 -0600] Update DEV-PHASE for release
+ - dca4c73 [2012-02-24 04:33:56 -0600] Update for release
+ - d3a6ed9 [2012-02-23 17:06:37 -0600] SF 3486466 if mcu left off, unclear error msg
+ - b39ee97 [2012-02-23 16:37:08 -0600] SF 3486463 msp430 4.6.1 toolchain warns about .noinit
+ - 473e1ea [2012-02-06 17:29:00 -0600] Use standard method of emitting labels
+ - 59ded52 [2012-02-06 17:25:33 -0600] SF 3440809 -O2 conflicts with naked functions
+ - ff1697d [2012-02-06 17:13:16 -0600] Reorder return insns so default does not have extraneous tests
+ - d4c922c [2012-02-06 13:51:29 -0600] Revert "SF 3440809 -O2 conflicts with naked functions"
+
+binutils: changes from 20120125 to 20120224:
+ - 8792f21 [2012-02-24 14:34:37 -0600] Update DEV-PHASE for release
+ - 34e6e3e [2012-02-23 12:26:43 -0600] Use standard DOLLAR_DOT approach instead of custom version
+ - 40427a9 [2012-02-21 10:15:55 -0600] Cleanup detection of pc-relative fixup/relocations
+ - a45799e [2012-02-21 07:36:30 -0600] SF 3489407 restore legacy symbolic operands
+ - b68626d [2012-02-19 15:03:46 -0600] Baby-step cleanup
+ - 7d349a6 [2012-02-19 12:22:50 -0600] Eliminate constraints preventing symbol-.(r0) or symbol(r2)
+ - 103affc [2012-02-19 11:08:27 -0600] Make dependence on r0 explicit when emitting indexed operands
+ - bc03deb [2012-02-18 10:29:14 -0600] Refactor code that emits fixups
+ - 0262728 [2012-02-18 09:16:32 -0600] Default to non-PC-relative symbolic relocations
+ - 85ed849 [2012-02-17 19:25:11 -0600] Default to non-PC-relative conditional jump relocations
+ - 09a1693 [2012-02-17 18:34:28 -0600] Add non-PCREL 10-bit conditional jump relocation
+ - 88441f7 [2012-02-17 18:14:44 -0600] cleanup fixup application
+ - 00d0a26 [2012-02-17 13:43:27 -0600] SF 3488636 mis-assembly using program location counter
+ - 5662d49 [2012-02-17 10:11:57 -0600] SF 3487856 gas mis-disassemble symbolics
+ - 62a820f [2012-02-17 04:39:16 -0600] msp430-dis: clean up magic numbers
+ - 789f569 [2012-02-17 03:27:30 -0600] emit more useful error when addresses unaligned
+ - 935c689 [2012-02-17 02:34:01 -0600] Run code through indent again
+ - 189821e [2012-02-16 19:51:42 -0600] Validate relocation ranges
+ - dcf90bd [2012-02-16 15:56:45 -0600] Enhance range validation in assembler
+ - 94928fe [2012-02-15 20:32:48 -0600] Document all relocations
+ - d8b1461 [2012-02-15 20:30:48 -0600] Clean up fixup formatting/fallthru
+ - 296d3e6 [2012-02-15 19:55:29 -0600] Correct and validate HOWTO order
+ - 9cf1fb7 [2012-02-15 18:46:58 -0600] Refactor reloc selection and storage
+ - 95aad4b [2012-02-15 16:04:46 -0600] Remove unnecessary imm_op output parameter
+ - 9157313 [2012-02-15 15:53:10 -0600] Relax operand alignment check for push/pushx
+ - bc104f9 [2012-02-15 13:42:50 -0600] Disallow unaligned access off stack pointer
+ - d1a8e41 [2012-02-15 13:37:23 -0600] Uniform detection of encoded immediates that might break alignment
+ - 2fa9206 [2012-02-15 08:00:32 -0600] Avoid gratuitous distinction between source/dest addressing modes
+ - 35b9a77 [2012-02-15 07:08:46 -0600] Eliminate redundant mode field
+ - 5155840 [2012-02-15 02:44:16 -0600] Move all dwarf2 line emission to end of function.
+ - c0f1b8f [2012-02-14 20:43:24 -0600] Fix error due to inconsistent use of __is
+ - af2a99f [2012-02-14 20:38:03 -0600] Revert effect of 3487332 and 3487629
+ - 1dfe5ba [2012-02-14 19:56:18 -0600] Rename local variable for clarity
+ - 23ecf6b [2012-02-14 16:59:25 -0600] Remove redundant set of op->mode
+ - 67a0783 [2012-02-14 13:27:56 -0600] Catch unhandled unsupported operands
+ - 5b51a1d [2012-02-14 13:03:06 -0600] SF 3487629 430x address mode gets symbolic wrong
+ - d42e20d [2012-02-14 11:17:28 -0600] Remove bypassed PCREL relocation generation for source operands
+ - 5e0b242 [2012-02-14 10:52:26 -0600] Confirm that no operands need to be PCREL adjusted
+ - 3dd285b [2012-02-14 10:51:50 -0600] Expand all reloc selection macros
+ - 75db281 [2012-02-14 08:49:18 -0600] Improve description of relocation for conditional jumps
+ - 00b8acc [2012-02-14 08:48:19 -0600] Record exemplar instructions for each pattern
+ - 8c4d424 [2012-02-13 17:33:17 -0600] SF 3487332 gas misassemble symbolic constant
+ - 801c9a3 [2012-02-13 16:33:31 -0600] SF 3487360 gas mis-disassemble symbolics
+ - 6245b53 [2012-02-13 14:41:14 -0600] Refactor test for non-PC-relative relocations
+ - 9b86911 [2012-02-13 14:03:53 -0600] Note how to get the opcodes that must be tested
+ - bb8f6d6 [2012-02-13 13:16:06 -0600] SF 3487361 clra opcode incorrect
+ - 4c24e63 [2012-02-13 13:11:57 -0600] SF 3487364 430x address opcodes ignore CG
+ - 423d997 [2012-02-13 11:59:38 -0600] magic number and fix comment
+ - 23b0c4a [2012-02-12 19:31:49 -0600] Reject arithmetic on registers at compile time
+ - 2e8cf27 [2012-02-12 18:46:05 -0600] Substitute -1 for constants that are all ones for the operation width
+ - 4570057 [2012-02-12 18:24:52 -0600] clean up opcode width extraction
+ - 1e31e58 [2012-02-12 17:35:02 -0600] Reorder for clarity
+ - f8d0c92 [2012-02-12 15:40:36 -0600] Avoid premature marking of immediate operand
+ - 1b239ba [2012-02-12 15:24:43 -0600] Avoid double-converting operand in emulated shift operations
+ - 1fe0bda [2012-02-12 13:26:54 -0600] Clean up register recognition and other processing
+ - f6975b1 [2012-02-12 11:56:13 -0600] documentation cleanup
+ - 88e0d46 [2012-02-12 10:58:20 -0600] clean up immediate operand validation
+ - 333db05 [2012-02-12 10:15:20 -0600] clean up local variables in srcoperand
+ - 7ee8609 [2012-02-12 10:02:45 -0600] Clean up dstoperand conversion
+ - 3f486c5 [2012-02-12 09:36:31 -0600] cleanup: constants, remove gratuitous declaration
+ - d43d131 [2012-02-10 15:17:39 -0600] Replace check_reg with extract_regno
+ - 8251e36 [2012-02-10 14:43:41 -0600] Eliminate magic number where OP_EXP was intended
+ - 5c2acd6 [2012-02-10 14:39:35 -0600] Clean up .rpt pseudo-op
+ - 8f31c95 [2012-02-10 13:33:25 -0600] Style cleanup: eliminate C++-style comments
+ - 5d7e371 [2012-02-10 12:59:46 -0600] Style cleanup
+ - 2aa2306 [2012-02-10 12:30:04 -0600] Correct #lo/#hi processing to retain recognition of -1 constant
+ - 764f227 [2012-02-10 11:16:34 -0600] Run everything through GNU indent for style cleanup
+ - b11e197 [2012-02-10 11:10:10 -0600] Eliminate mask constants in favor of macros
+ - acd1aef [2012-02-10 10:29:54 -0600] more removal of magic numbers
+ - 7382915 [2012-02-10 09:49:28 -0600] Remove disabled code to display interrupt vectors
+ - 1459fea [2012-02-10 09:25:49 -0600] SF 3486454 .rpt disassembles incorrectly
+ - c6b03ca [2012-02-10 09:18:35 -0600] SF 3486453 rrux not supported
+ - 82ee322 [2012-02-09 23:20:23 -0600] SF 3486451 430x 20-bit immediates mistranslated
+ - f6013a3 [2012-02-09 23:02:44 -0600] eliminate magic register numbers
+ - 7de23a2 [2012-02-09 22:47:55 -0600] gas: eliminate magic numbers in immediate range checks
+ - d01e7e7 [2012-02-09 22:39:19 -0600] convert src/dst operand extractors to bfd_boolean functions
+ - 97bf578 [2012-02-09 18:54:45 -0600] Remove relaxation and polymorph support for MSP430
+ - 4f26e0d [2012-02-09 11:34:56 -0600] tc-msp430.h: cleanup
+ - a4629d3 [2012-02-09 12:08:52 -0600] Add relevant errata provided by TI
+
+gdb: no changes
+
+msp430-libc: changes from 20120125 to 20120224:
+ - 24c1bb3 [2012-02-24 04:45:27 -0600] Regenerate
+ - f703fff [2012-02-24 04:45:26 -0600] Update version number and release notes
+ - 8f6b87e [2012-01-27 17:23:11 -0600] SF 3480664 extend errno.h
+
+msp430mcu: changes from 20111224 to 20120224:
+ - 7e9b7ec [2012-02-24 14:39:57 -0600] Regenerate
+ - 014096a [2012-02-24 14:39:19 -0600] Update version number and release notes
+ - 927d00e [2012-02-23 17:08:16 -0600] Regenerate
+ - b56e625 [2012-02-23 17:07:49 -0600] Update version number
+ - 1a153ab [2012-02-23 17:07:08 -0600] SF 3486466 if mcu left off, unclear error msg
+ - 95c7f17 [2012-02-09 09:12:33 -0600] Regenerate including derived peripheral data
+ - 1c71dcb [2012-02-09 09:11:26 -0600] extend analysis with data on mcu peripherals
+
+
+=====================================
+
+Summary of changes in mspgcc release 20120125 since release 20120119
+
+gcc: changes from 20120119 to 20120125:
+ - 6932fa0 [2012-01-25 13:37:08 -0600] Update DEV-PHASE for release
+ - b27610a [2012-01-25 13:35:56 -0600] Update for release
+ - 51fd720 [2012-01-25 12:02:17 -0600] SF 3479668 msp430-libc ICE on 32-bit host
+ - 161ca2e [2012-01-25 10:33:48 -0600] SF 3479660 delay_cycles(INT32_MAX) fails on 32-bit host
+
+binutils: changes from 20120119 to 20120125:
+ - 2c98b77 [2012-01-25 13:38:19 -0600] Update DEV-PHASE for release
+
+gdb: no changes
+
+msp430-libc: changes from 20120119 to 20120125:
+ - ab713ee [2012-01-25 13:39:13 -0600] Regenerate
+ - 8331481 [2012-01-25 13:39:13 -0600] Update version number and release notes
+ - 71227b5 [2012-01-25 12:10:22 -0600] SF 3478661 msp30-libc compilation issue
+
+msp430mcu: no changes
+
+
+=====================================
+
+Summary of changes in mspgcc release 20120119 since release 20111224
+
+gcc: changes from 20111224 to 20120119:
+ - e313f64 [2012-01-19 17:54:37 -0600] Update DEV-PHASE for release
+ - 135695f [2011-10-30 11:49:46 -0500] Add msp430 target support to GCC
+ - ec1dfda [2011-10-30 11:48:55 -0500] Revert "Add msp430 target support to GCC"
+ - 79181ea [2012-01-19 16:01:35 -0600] Update for release
+ - 2da8f82 [2012-01-06 16:39:04 -0600] Reuse existing function to determine length of constant
+ - 8196139 [2012-01-06 16:16:14 -0600] Accept length for tablejump
+ - ec86a20 [2012-01-06 11:46:06 -0600] Swap args when dest is indirect register
+ - 3228dad [2012-01-06 10:29:39 -0600] Disable early-clobber constraints on multi-word operations
+ - f5bcb28 [2012-01-05 17:05:11 -0600] Update for release
+ - 9e311cd [2012-01-05 14:35:56 -0600] Fix length for non-standard out-of-range branches
+ - 64670b7 [2012-01-05 10:08:06 -0600] Update length adjustment for conditional jump, return, and basic operands
+ - 707930d [2012-01-05 09:09:40 -0600] Correct setcc insn length; fix bit carry mode error
+ - ee4eccd [2012-01-04 21:45:47 -0600] Use local labels instead of byte offsets
+ - 9acab17 [2012-01-04 21:13:28 -0600] Permit comparisons on stack pointer and pseudo registers
+ - ad2846a [2012-01-04 20:50:19 -0600] Restore SF 3296698 peephole optimization
+ - 6f93e81 [2012-01-04 19:04:54 -0600] Another attempt to make bittest for bit extraction non-volatile
+ - b440bae [2012-01-04 18:16:09 -0600] Update CC status based on attribute effects
+ - 295a3b1 [2011-10-31 11:29:56 -0500] Review and update all cc attr values
+ - 6356b4d [2012-01-04 17:11:30 -0600] Avoid comparison change on symbol_ref operands
+ - b700ea0 [2011-10-30 12:59:24 -0500] Replace cbranch infrastructure
+ - 44686c2 [2012-01-05 16:58:09 -0600] Restore peephole optimization for andm2
+ - 172eabb [2011-10-26 10:01:56 -0500] Cull peepholes and sequelae
+ - 1f0ec33 [2011-12-05 08:55:43 -0600] Regenerate
+
+binutils: changes from 20111205 to 20120119:
+ - f1bde45 [2012-01-19 18:28:35 -0600] Correct version infrastructure to also modify release version string
+ - 1285522 [2012-01-11 12:00:05 -0600] SF 3472485 need visible version info in tool output
+
+gdb: no changes
+
+msp430-libc: changes from 20111224 to 20120119:
+ - 0420537 [2012-01-19 16:21:36 -0600] Regenerate
+ - fe2ca58 [2012-01-19 16:21:36 -0600] Update version number and release notes
+ - bf09c21 [2012-01-10 09:17:52 -0600] Add a warning about libfp.a being untrusted
+
+msp430mcu: no changes
+
+
+=====================================
+
